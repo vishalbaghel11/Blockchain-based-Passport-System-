@@ -1,0 +1,15 @@
+[package]
+name = "decentraise"
+version = "1.0.0"
+authors = []
+
+[addresses]
+MyModule = "0x69c92080df5e791122e964c12241109e5e1d937e8ec0c7c8032697ef018c340b"
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
